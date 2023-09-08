@@ -1,0 +1,28 @@
+nav{
+   
+    background: rgb(66, 154, 154);
+    
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-link{
+    color: aliceblue;
+    margin: 5px;
+    text-decoration: none;
+    padding: 50px;
+
+}
+
+.nav-link:hover{
+    color: tomato;
+}
+
+nav .active{
+    /* by default navlink er sathe active class ta ashe */
+    color: yellow;
+}
